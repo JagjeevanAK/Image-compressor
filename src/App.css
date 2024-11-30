@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.app {
+  max-width: 80vw;
+  padding: 20px 40px; /* Increased padding on the x-axis */
+  text-align: center;
+  background-color: white;
+  border-radius: 2vh;
+  box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold; /* Make label bold */
+  font-size: 18px; /* Increase text size */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.compressed-image, .original-image {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 18px; /* Increase text size */
+  color: #555;
+  font-weight: bold; /* Make text bold */
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.image-wrapper {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.download-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.button-wrapper button {
+  margin: 0 10px; /* Add margin between buttons */
+}
+
+.button-wrapper button:last-child {
+  background-color: #007BFF; /* Modern blue color for back button */
+}
+
+.button-wrapper button:last-child:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
